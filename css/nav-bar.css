@@ -12,3 +12,21 @@
   display: flex;
   justify-content: space-around;
 }
+
+.nav__list-link {
+  position: relative;
+}
+.nav__badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* height 만큼 주면 동그라미가 된다. 혹은 50%를 주면 된다.*/
+}
